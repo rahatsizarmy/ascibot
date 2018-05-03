@@ -1,4 +1,6 @@
 module.exports = member => {
-  let guild = member.guild;
-  member.send('**niye gittin?**');
+  let username = member.user.username;
+
+    member.send('Hoş geldin **' + username + '**!');
+    client.channels.get("429350148745723914").sendMessage(`${username} adlı kişi sunucudan gitti.`); 
 };
