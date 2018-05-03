@@ -1,0 +1,22 @@
+{
+  "name": "discordbotdersleri",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "Serhan",
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "chalk": "^2.3.2",
+    "cleverbot-node": "^0.3.11",
+    "discord-rpc": "^3.0.0-beta.10",
+    "discord.js": "^11.3.2",
+    "import": "0.0.6",
+    "moment": "^2.22.0",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1"
+  }
+}
