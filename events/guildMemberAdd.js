@@ -1,9 +1,5 @@
 module.exports = member => {
-    let modlog = ('name', 'giris-cıkıs');
-    let username = member.user.username;
-    const embed = new Discord.RichEmbed()
-    .setColor(0x00AE86)
-    .setTimestamp()
-    .addField('sa')
-  return (modlog.id).sendEmbed(embed);
+  let username = member.user.username;
+  member.send('Hoş geldin **' + username + '**!');
+  client.channels.get("429350148745723914").sendMessage(`${username} adlı kişi sunucuya katıldı.Sunucu sayısı ${message.guild.memberCount} oldu.`);
 };
